@@ -47,7 +47,7 @@ def delete_classes(client, classes):
 def get_credentials():
     """Prompt user for Weaviate credentials and return them."""
     host = input("\nEnter Weaviate host URL: ").strip()
-    api_key = input("Enter API key: ").strip()
+    api_key = input("Enter WeaviateAPI key: ").strip()
     return {"host": host, "api_key": api_key}
 
 def main():
