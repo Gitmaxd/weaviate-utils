@@ -60,7 +60,7 @@ class WeaviateService:
         schema = self.client.schema.get()
         classes = schema.get('classes', [])
         if classes:
-            print("\n\nExisting classes in the Weaviate database:")
+            print("\n\nCurrently existing classes in the Weaviate database:")
             for cls in classes:
                 print(f"- {cls['class']}\n\n")
         else:
