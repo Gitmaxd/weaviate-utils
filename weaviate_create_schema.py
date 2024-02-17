@@ -4,7 +4,7 @@ from weaviate.auth import AuthApiKey
 
 # Configuration Options
 # ---------------------
-# Name of the index to be used in Weaviate
+# Name of the index to be used in Weaviate - IF EXISTS, IT WILL BE DELETED
 index_name = "documents"
 # Dimension of the embeddings (e.g., 1536 for OpenAI embeddings)
 dimension = 1536
